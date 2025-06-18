@@ -39,8 +39,3 @@ The output mask will be saved in the 'save_image_path/model_name/xx'
 3.Selection of hyperparameters
 n_gpu, lr, batch_size, epoch
 location of log saved
-
-
-Have a good time and enjoy it.
-
-If you have questions, please contact me with m18656409435@163.com
