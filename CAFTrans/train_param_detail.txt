@@ -1,0 +1,11 @@
+U-net bs=4
+CUDA_VISIBLE_DEVICES=1 python train.py --n_gpu 1 --model_name U-net
+
+segcloud bs=4
+CUDA_VISIBLE_DEVICES=1 python train.py --n_gpu 1 --model_name segcloud
+
+DC-Swin bs=4
+CUDA_VISIBLE_DEVICES=2 python train.py --n_gpu 1 --model_name DCswin
+
+FCN bs=4
+CUDA_VISIBLE_DEVICES=3 python train.py --n_gpu 1 --model_name FCN
